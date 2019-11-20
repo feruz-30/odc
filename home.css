@@ -1,0 +1,75 @@
+/* CSS files add styling rules to your content */
+
+body {font-family: serif;
+    background-color:   #e6ccb3;}
+
+header{height: 200px;
+     margin: 10px;
+     border-radius: 10px;
+     padding: 5px;}
+
+h1{ font-size: 60px;
+  text-align: center;
+  color: #996633;}
+
+h2{font-size: 50px;
+ color: #996633;}
+
+section{ display: flex;}
+
+section #vedio{ height: 500px;
+              width: 1400px;
+              background-color: white;
+              margin: 10px;
+              border-radius: 10px;}
+
+section #menu{height: 200px;
+            width: 220px;
+            background-color:   #e6ccb3;
+            margin: 10px;
+            border-radius: 10px;
+            font-size: 80%;}
+
+section #menu ul{list-style-type: none;
+               padding: 10px; 
+               text-align: center;}
+section #menu ul li{margin-bottom: 10px;}
+
+section #menu ul li a{text-decoration: none;
+                    margin: 10px;
+                    padding: 10px;
+                    border-radius: 10px;
+                    color: black;}
+
+section #menu ul li a:hover{background-color: #d9b38c;}
+
+article{ height: 350px;
+       margin: 10px;
+       border-radius: 10px;
+       padding: 100px;
+       font-size: 17px;}
+
+footer{ height: 200px;
+      font-size: 80%;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+      background-color:   #d2a679;}
+
+footer ul{list-style-type: none;
+        padding: 10px; }
+
+footer ul li {display: inline;}
+
+footer ul li a{text-decoration: none;
+             margin: 10px;
+             padding: 10px;
+             border-radius: 10px;
+             color: black;}
+
+footer #about ul li a:hover{background-color: #c68c53;}
+
+footer #copyRight{text-align: center;}
+
+

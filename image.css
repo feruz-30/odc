@@ -1,0 +1,51 @@
+/* CSS files add styling rules to your content */
+
+body {font-family: serif;
+    background-color:   #e6ccb3;}
+
+heading{height: 40px;
+      font-size: 80%;
+      text-align: right;}
+
+heading ul{list-style-type: none;
+         padding: 5px; 
+         text-align: right;
+         margin-right: 100px;}
+
+heading ul li{margin-bottom: 10px;}
+
+heading ul li a{text-decoration: none;
+              margin: 10px;
+              padding: 5px;
+              border-radius: 10px;
+              color: white;}
+
+heading ul li a:hover{color: #d9b38c}
+                    
+article{ text-align: center;
+       margin: 15px;
+       border-radius: 10px;}
+.photo{border: groove 5px white;}
+
+footer{ height: 160px;
+      font-size: 80%;
+      margin: 10px;
+      border-radius: 10px;
+      text-align: center;
+      padding: 10px;
+      background-color: #d2a679;}
+
+footer ul{list-style-type: none;
+        padding: 10px; }
+
+footer ul li {display: inline;}
+
+footer ul li a{text-decoration: none;
+             margin: 10px;
+             padding: 10px;
+             border-radius: 10px;
+             color: black;}
+
+footer #about ul li a:hover{background-color: #c68c53;}
+
+footer #copyRight{text-align: center;}
